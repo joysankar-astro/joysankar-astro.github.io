@@ -22,12 +22,9 @@ menu:
         - name: Data
           url: data/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
+    description: "I am a research assistant (RA) at High Energy Astrophysics Lab, Department of Physics, Banaras Hindu University. My research focuses on temporal, spectral, and multi-wavelength study of blazars."
     author: Joysankar Majumdar
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
