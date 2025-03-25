@@ -1,5 +1,5 @@
 baseURL: "https://joysankar-astro.github.io/" 
-title: Joysankar Majummdar
+title: Joysankar Majumdar
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -10,18 +10,12 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
         - name: Data
           url: data/
-          weight: 4 
+          weight: 3 
 
 params:
     description: "I am a research assistant (RA) at High Energy Astrophysics Lab, Department of Physics, Banaras Hindu University. My research focuses on temporal, spectral, and multi-wavelength study of blazars."
@@ -57,18 +51,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
             - name: Data
               url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
