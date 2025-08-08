@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joysankar Majumdar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Joysankar Majumdar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>joysankarmajumdar@gmail.com (Joysankar Majumdar)</managingEditor>
+    <webMaster>joysankarmajumdar@gmail.com (Joysankar Majumdar)</webMaster>
+    <copyright>© 2025 Joysankar Majumdar</copyright>
+    <lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/me/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <author>joysankarmajumdar@gmail.com (Joysankar Majumdar)</author>
+      <guid>http://localhost:1313/me/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>http://localhost:1313/blogs/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <author>joysankarmajumdar@gmail.com (Joysankar Majumdar)</author>
+      <guid>http://localhost:1313/blogs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Codes</title>
+      <link>http://localhost:1313/codes/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <author>joysankarmajumdar@gmail.com (Joysankar Majumdar)</author>
+      <guid>http://localhost:1313/codes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+      <author>joysankarmajumdar@gmail.com (Joysankar Majumdar)</author>
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
