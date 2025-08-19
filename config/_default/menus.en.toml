@@ -27,7 +27,7 @@
 
 [[main]]
   name = "astro-notes"
-  pageRef = "astro-notes"
+  url = "https://joysankar-astro.github.io/astro-notes/"
   weight = 4
 
 
