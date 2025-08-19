@@ -26,8 +26,8 @@
   weight = 3
 
 [[main]]
-  name = "Blogs"
-  pageRef = "blogs"
+  name = "astro-notes"
+  pageRef = "astro-notes"
   weight = 4
 
 
