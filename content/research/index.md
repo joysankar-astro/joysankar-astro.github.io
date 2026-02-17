@@ -4,13 +4,17 @@ description: "Description of my research"
 date: 2025-08-08
 showReadingTime: false
 ---
-I am interested in high enenrgy astrophysics.
-Untill now I have been working on multi frequency tempoarl and spectral analysis of jetted active galactic nuclei (AGN).
+I am interested in multi-wavelength studies of astrophysical transients and high-energy astrophysics.
 
+Currently, I am working on expanding the features of **[BHTOM](https://bhtom.space/)**, which is multi-wavlength archival and optical follow-up engine for astrophysical transients. 
 
-![Radio image of 3C 405](Cygnus_A.gif "Radio image of 3C 405. Bipolar jet is visble with redio lobes.")
+## Collaborations
+- **[PESSTO](https://www.pessto.org)**: Public ESO Spectroscopic Survey of Transient Objects
+- **[RISOTTO](https://risotto.sn.ie/)**: Rubin-ESO Investigative Spectroscopy Of Target Transient Objects
 
 ## Publications
+[![ADS](https://img.shields.io/badge/NASA-ADS-blue)](https://ui.adsabs.harvard.edu/public-libraries/6QLdQBOKSAmFLSfsINZpCw)
+
 - **J. Majumdar**, S. Maurya, R. Prince.
   *BL Lacertae under the flare of 2024: Probing temporal and spectral dynamics*.
   _Journal of High Energy Astrophysics_, 48, 100402 (2025).
