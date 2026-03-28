@@ -7,6 +7,9 @@ showReadingTime: false
 ## Teaching
 - **Advances in Modern Astronomy** (Summer Semester 2026) at Astronomical Observatory, University of Warsaw, PL
 
+## Telescope time
+- **Neil Gehrels Swift Observatory (SWIFT)**: ToO triggers for PKS 2208-137, Gaia DR3 277817015341, OQ 334, AT2024agoe, AT2025acft, SDSS J080622.15+21262, AT2026gz, GB6 J0742+5444, AT2026ava
+
 ## Conferences & Schools
 - **RAPID Response: Hot-wiring the Next Generation of Time-Domain Science** at Caltech, Pasadena, USA (March 23 - 27, 2026)
   - Talk: _**BHTOM: Standardized, automated time-domain follow-up from a global volunteer telescope network**_
