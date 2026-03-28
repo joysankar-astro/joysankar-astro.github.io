@@ -26,6 +26,11 @@
   weight = 3
 
 [[main]]
+  name = "Activity"
+  pageRef = "activity"
+  weight = 4
+
+[[main]]
   name = "astro-notes"
   url = "https://joysankar-astro.github.io/astro-notes/"
   weight = 4

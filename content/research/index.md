@@ -1,12 +1,12 @@
 ---
 title: "Research"
 description: "Description of my research"
-date: 2025-08-08
+date: 2026-03-28
 showReadingTime: false
 ---
-I am interested in multi-wavelength studies of astrophysical transients and high-energy astrophysics.
+I am interested in multi-wavelength studies of astrophysical transients and high-energy astrophysics. Currently, I am working on core-collapse supernovae.
 
-Currently, I am working on expanding the features of **[BHTOM](https://bhtom.space/)**, which is multi-wavlength archival and optical follow-up engine for astrophysical transients. 
+Currently, I am working on expanding the features of **[BHTOM](http://bhtom.space/)**, which is multi-wavlength archival and optical follow-up engine for astrophysical transients. 
 
 ## Collaborations
 - **[PESSTO](https://www.pessto.org)**: Public ESO Spectroscopic Survey of Transient Objects
