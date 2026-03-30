@@ -6,9 +6,10 @@ showReadingTime: false
 ---
 I am interested in multi-wavelength studies of astrophysical transients and high-energy astrophysics. Currently, I am working on core-collapse supernovae.
 
-Currently, I am working on expanding the features of **[BHTOM](http://bhtom.space/)**, which is multi-wavlength archival and optical follow-up engine for astrophysical transients. 
+Currently, I am working on expanding the features of **[BHTOM](http://bhtom.space/)**, which is a multi-wavelength archival and optical follow-up engine for astrophysical transients. 
 
 ## Collaborations
+- **[LSST-TVS](https://lsst-tvssc.github.io)**: The Vera C. Rubin Observatory Legacy Survey of Space and Time (LSST) Transients and Variable Stars (TVS) Collaboration
 - **[PESSTO](https://www.pessto.org)**: Public ESO Spectroscopic Survey of Transient Objects
 - **[RISOTTO](https://risotto.sn.ie/)**: Rubin-ESO Investigative Spectroscopy Of Target Transient Objects
 
