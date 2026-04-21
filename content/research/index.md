@@ -30,3 +30,10 @@ Currently, I am working on expanding the features of **[BHTOM](http://bhtom.spac
   *On the origin of multifrequency temporal and spectral variability in Ton 599*.
   _Publications of the Astronomical Society of Australia_, 42, e053 (2025).
   [DOI:10.1017/pasa.2025.34](https://doi.org/10.1017/pasa.2025.34)
+
+## TNS
+
+- [Multi-band Photometric Follow-up of SN 2026ayt with BHTOM.space Global Telescope Network](https://www.wis-tns.org/astronotes/astronote/2026-106), Majumdar et al. (2026)
+- [Multi-band Photometric Follow-up of SN 2026dix with BHTOM.space Global Telescope Network, along with the 50-mm Seestar S50 camera](https://www.wis-tns.org/astronotes/astronote/2026-105), Majumdar et al. (2026)
+- [Photometric observations of AT2026cex with BHTOM. space Global Telescope Network](https://www.wis-tns.org/astronotes/astronote/2026-86), Majumdar et al. (2026)
+- [Discovery Report of AT 2026cmz](https://www.wis-tns.org/object/2026cmz), Majumdar et al. (2026)
