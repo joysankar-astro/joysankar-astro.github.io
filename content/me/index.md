@@ -1,7 +1,7 @@
 ---
 title: "About me"
 description: "Description about myself."
-date: 2026-03-28
+date: 2026-09-15
 showReadingTime: false
 ---
 {{< typeit >}}
@@ -16,5 +16,6 @@ I have completed my schooling from **Barakoil High School** and then completed m
 
 - read - Bengali novels
 - listen - [GMT](https://www.youtube.com/@realmir)
+- hobby - Photography
 - play - Chess & Badminton
 - eat - Biriyani (Kolkata Biriyani is the best)
