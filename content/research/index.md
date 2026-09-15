@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: "Description of my research"
-date: 2026-03-28
+date: 2026-09-15
 showReadingTime: false
 ---
 I am interested in multi-wavelength studies of astrophysical transients and high-energy astrophysics. Currently, I am working on core-collapse supernovae.
@@ -30,6 +30,16 @@ Currently, I am working on expanding the features of **[BHTOM](http://bhtom.spac
   *On the origin of multifrequency temporal and spectral variability in Ton 599*.
   _Publications of the Astronomical Society of Australia_, 42, e053 (2025).
   [DOI:10.1017/pasa.2025.34](https://doi.org/10.1017/pasa.2025.34)
+
+- M. Wicker, Ł. Wyrzykowski et al. (including **J. Majumdar**)
+  *Gaia20fnr: A binary-lens microlensing event with full orbital motion revealed by four space telescopes*.
+  _Astronomy & Astrophysics_, 710, A294 (2026).
+  [DOI:10.1051/0004-6361/202659085](https://doi.org/10.1051/0004-6361/202659085)
+
+- A. F. Gillan, Ł. Wyrzykowski et al. (including **J. Majumdar**)
+  *Time-Domain Photometry and Activity Evolution of Interstellar Comet 3I/ATLAS with BHTOM*.
+  _Astronomy & Astrophysics_, **, ** (2026).
+  [DOI:10.1051/10.1051/0004-6361/202659913](https://doi.org/10.1051/0004-6361/202659913)
 
 ## TNS
 
