@@ -1,16 +1,29 @@
 ---
 title: "Research activity"
 description: "Description of my research activity"
-date: 2026-03-28
+date: 2026-09-15
 showReadingTime: false
 ---
 ## Teaching
 - **Advances in Modern Astronomy** (Summer Semester 2026) at Astronomical Observatory, University of Warsaw, PL
 
 ## Telescope time
-- **Neil Gehrels Swift Observatory (SWIFT)**: ToO triggers for PKS 2208-137, Gaia DR3 277817015341, OQ 334, AT2024agoe, AT2025acft, SDSS J080622.15+21262, AT2026gz, GB6 J0742+5444, AT2026ava
+- 30 hours on the **Baldone Schmidt Telescope (BST)**, Latvia
+- 10 hours on the **Joan Oró Telescope (TJO)**, Spain
+- 35 hours on the **Kottamia Astronomical Observatory (KAO)**, Egypt
+- 6 hours on the **Las Cumbres Observatory (LCO) 0.4m**
+- 8.5 hours on the **Liverpool Telescope (LT)**, Canary Islands, Spain
+- 30 hours on the **University of Zielona Gora Observatory (UZO)**, Chile
+- **Neil Gehrels Swift Observatory (SWIFT) - RIP**: ToO triggers for PKS 2208-137, Gaia DR3 277817015341, OQ 334, AT2024agoe, AT2025acft, SDSS J080622.15+21262, AT2026gz, GB6 J0742+5444, AT2026ava
 
 ## Conferences & Schools
+- **ePESSTO+ meeting** in Cardiff, UK (Sep 14 - 15, 2026)
+  - Talk: _**SN 2019qem: A Luminous Type IIn Supernova Seen Through Three Years of Interaction**_
+- **17th Gaia Science Alerts workshop and the ACME Time-Domain Workshop** in Frejus, France (Aug 31 - Sep 4, 2026)
+  - Talk: _**SN 2019qem: A Long-Lived, Luminous Type IIn Supernova with Sustained Circumstellar Interaction**_
+  - Talk: _**New features in BHTOM3 - data services, photometry, spectroscopy**_
+- **Tidal Disruption Events and Nuclear Transients in Crete vol. 2** in Heraklion, Crete, Greece (Aug 24 - 28, 2026)
+  - Poster: _**BHTOM: A Platform for Coordinated time-domain studies of accreting supermassive black holes**_
 - **RAPID Response: Hot-wiring the Next Generation of Time-Domain Science** at Caltech, Pasadena, USA (March 23 - 27, 2026)
   - Talk: _**BHTOM: Standardized, automated time-domain follow-up from a global volunteer telescope network**_
 - **EDUCADO-MWGaiaDN training school on astro-AI and ML** in Ghent, Belgium (Mar 2 - 6, 2026)
