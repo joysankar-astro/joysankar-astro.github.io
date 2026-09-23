@@ -1,7 +1,7 @@
 ---
 title: "Research activity"
 description: "Description of my research activity"
-date: 2026-09-15
+date: 2026-09-23
 showReadingTime: false
 ---
 ## Teaching
@@ -17,9 +17,11 @@ showReadingTime: false
 - **Neil Gehrels Swift Observatory (SWIFT) - RIP**: ToO triggers for PKS 2208-137, Gaia DR3 277817015341, OQ 334, AT2024agoe, AT2025acft, SDSS J080622.15+21262, AT2026gz, GB6 J0742+5444, AT2026ava
 
 ## Conferences & Schools
+- **HERA 2026 – Black Holes at Different Flavours** in Warsaw, Poland (Sep 21 - 25, 2026)
+  - Talk: _**AT 2020xys: Discovery, Classification, and Multi-Wavelength Observations of a Bowen Fluorescence Flare in an AGN**_
 - **ePESSTO+ meeting** in Cardiff, UK (Sep 14 - 15, 2026)
   - Talk: _**SN 2019qem: A Luminous Type IIn Supernova Seen Through Three Years of Interaction**_
-- **17th Gaia Science Alerts workshop and the ACME Time-Domain Workshop** in Frejus, France (Aug 31 - Sep 4, 2026)
+- **17th Gaia Science Alerts workshop and the ACME Time-Domain Workshop** in Fréjus, France (Aug 31 - Sep 4, 2026)
   - Talk: _**SN 2019qem: A Long-Lived, Luminous Type IIn Supernova with Sustained Circumstellar Interaction**_
   - Talk: _**New features in BHTOM3 - data services, photometry, spectroscopy**_
 - **Tidal Disruption Events and Nuclear Transients in Crete vol. 2** in Heraklion, Crete, Greece (Aug 24 - 28, 2026)
