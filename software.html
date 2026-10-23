@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software | Joysankar Majumdar</title>
+<meta name="description" content="Web apps and code by Joysankar Majumdar, from blazar information tools to Swift XRT product extraction.">
+<link rel="icon" href="assets/img/avatar-joy.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+Bengali:wght@400;700&display=swap">
+<link rel="stylesheet" href="assets/paper.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+<div class="sheet">
+  <div class="stamp" aria-hidden="true">joysankar-astro.github.io&ensp;[astro-ph.HE]&ensp;24 Oct 2026</div>
+
+  <header>
+    <div class="runhead"><span>J. Majumdar &middot; Software</span><span>Preprint, manuscript no. 26xx.134xx</span></div>
+    <nav class="toc" aria-label="Pages">
+      <a href="index.html"><span class="n">1</span>About</a>
+      <a href="research.html"><span class="n">2</span>Research</a>
+      <a href="publications.html"><span class="n">3</span>Publications</a>
+      <a href="activity.html"><span class="n">4</span>Activity</a>
+      <a href="software.html" aria-current="page"><span class="n">5</span>Software</a>
+      <button class="theme" type="button">dark</button>
+    </nav>
+  </header>
+
+  <h1 class="title">Appendix A. Software and web tools</h1>
+  <p class="authors">J. Majumdar<sup>1</sup></p>
+  <div class="affil"><div><sup>1</sup> Astronomical Observatory, University of Warsaw, Al. Ujazdowskie 4, 00-478 Warszawa, Poland</div></div>
+  <p class="dates">Last revised 24 October 2026</p>
+
+  <section class="abstract" aria-labelledby="abs">
+    <h2 id="abs">ABSTRACT</h2>
+    <p>Code written along the way, released in the hope that it saves someone else an afternoon. Interactive web applications are listed in Sect. A.1 and code repositories in Sect. A.2. More is on <a href="https://github.com/joysankar-astro">GitHub</a>.</p>
+  </section>
+
+  <main>
+    <h2><span class="n">A.1.</span>Web applications</h2>
+    <dl class="defs">
+      <dt>BlazarInfo</dt>
+      <dd><a href="https://blazarinfo.streamlit.app/">blazarinfo.streamlit.app</a>. Quick-look information on blazars.</dd>
+      <dt>ZTF LC and PSD</dt>
+      <dd><a href="https://ztf-lc.streamlit.app/">ztf-lc.streamlit.app</a>. Zwicky Transient Facility light curves and their power spectral densities.</dd>
+    </dl>
+
+    <h2><span class="n">A.2.</span>Repositories</h2>
+    <div class="table-wrap">
+      <table>
+        <caption><b>Table A.1.</b> Public code repositories.</caption>
+        <thead><tr><th>Repository</th><th>Description</th><th>Language</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://github.com/joysankar-astro/AutoUVOT">AutoUVOT</a></td><td>Automated <i>Swift</i> UVOT reduction. A web service that finds public UVOT observations of a sky position, runs HEASoft <code>uvotsource</code> photometry and serves the light curve (<a href="https://doi.org/10.5281/zenodo.23261432">Zenodo</a>).</td><td>Python</td></tr>
+          <tr><td><a href="https://github.com/joysankar-astro/subphot">subphot</a></td><td>Difference-imaging photometry pipeline built on <code>hotpants</code>, written for Las Cumbres Observatory images.</td><td>Python</td></tr>
+          <tr><td><a href="https://github.com/joysankar-astro/XRT-Product-Extractor">XRT-Product-Extractor</a></td><td>Extracts data from the results of the <i>Swift</i> XRT online product builder.</td><td>Jupyter</td></tr>
+          <tr><td><a href="https://github.com/joysankar-astro/GNSS-Data-Downloader">GNSS-Data-Downloader</a></td><td>Small Python package to download GNSS navigation and observation files from IGS stations.</td><td>Python</td></tr>
+          <tr><td><a href="https://github.com/quantaDot/MathRenderer">MathRenderer</a></td><td>Library for displaying mathematical equations in Android applications.</td><td>Kotlin</td></tr>
+          <tr><td><a href="https://github.com/JoyMajumdar2001/EmotionBadge">EmotionBadge</a></td><td>Rates the emotion of a GitHub profile picture and serves it as a badge.</td><td>JavaScript</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <nav class="pager" aria-label="Previous page"><a href="activity.html">&larr; Activity</a><a href="index.html">Back to page 1 &rarr;</a></nav>
+  </main>
+
+  <footer class="pagefoot"><span>&copy; 2026 J. Majumdar</span><span>Article number, page 5 of 5</span></footer>
+</div>
+<script src="assets/theme.js"></script>
+</body>
+</html>
