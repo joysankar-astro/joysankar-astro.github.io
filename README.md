@@ -1,12 +1,18 @@
-# myweb_simple
+# Joysankar Majumdar
 
-Single-page academic homepage. Plain HTML, one stylesheet (`assets/style.css`) and `assets/sky.js`
-(night-sky header with twinkling stars and flaring transients, live Warsaw sidereal time and Moon phase,
-sections fading in on scroll). Animations switch off when the visitor asks for reduced motion.
-Dark mode follows the system setting. No build step.
+Academic homepage, live at **https://joysankar-astro.github.io**
 
-To add a publication, copy one `<li>` in the right list (Refereed, Preprints, ATels and TNS reports) in `index.html`.
+Single-page site in plain HTML with one stylesheet and two small scripts. There is no build step.
 
-Preview with `python3 -m http.server` in this folder.
+- `index.html` holds all the content.
+- `assets/style.css` sets the layout and colours. Dark mode follows the system setting.
+- `assets/sky.js` draws the night-sky header: twinkling stars, flaring transients and an observatory that slews to them. It also shows the live Warsaw sidereal time and Moon phase, and fades sections in on scroll.
+- `assets/lightcurve.js` draws the reading-progress bar at the bottom, a TDE light curve. Its data points are simulated, and seeded so they look the same on every visit.
 
-Bottom bar: `assets/lightcurve.js` draws a TDE light curve as a reading-progress bar; the data points are simulated, seeded so they look the same each visit.
+Animations switch off when a visitor asks for reduced motion.
+
+## Updating
+
+To add a publication, copy one `<li>` in the right list (Refereed, Preprints, or ATels and TNS reports) in `index.html`.
+
+Preview locally with `python3 -m http.server` in this folder, then commit and push to `main`. GitHub Pages deploys it automatically.
