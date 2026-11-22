@@ -1,11 +1,12 @@
-# myweb_paper
+# myweb_simple
 
-Static academic homepage typeset like a journal preprint. Plain HTML and one stylesheet, no build step.
+Single-page academic homepage. Plain HTML, one stylesheet (`assets/style.css`) and `assets/sky.js`
+(night-sky header with twinkling stars and flaring transients, live Warsaw sidereal time and Moon phase,
+sections fading in on scroll). Animations switch off when the visitor asks for reduced motion.
+Dark mode follows the system setting. No build step.
 
-- `index.html` About, `research.html`, `publications.html`, `activity.html`, `software.html`, `404.html`
-- `assets/paper.css` all styling (light/dark tokens on `:root`, print stylesheet included)
-- `assets/theme.js` light/dark toggle
-- `assets/img/` images copied from the joysankar-astro.github.io Hugo repo
+To add a publication, copy one `<li>` in the right list (Refereed, Preprints, ATels and TNS reports) in `index.html`.
 
-Preview with `python3 -m http.server` in this folder. When content changes, also update the
-"Last revised" date and the arXiv-style margin stamp on each page.
+Preview with `python3 -m http.server` in this folder.
+
+Bottom bar: `assets/lightcurve.js` draws a TDE light curve as a reading-progress bar; the data points are simulated, seeded so they look the same each visit.

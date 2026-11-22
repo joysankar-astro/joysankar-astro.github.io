@@ -1,0 +1,158 @@
+:root {
+  --bg: #fffdf8;
+  --ink: #222;
+  --soft: #5f5f5a;
+  --faint: #8d8b84;
+  --rule: #e4dfd4;
+  --green: #2a6b4a;
+  --orange: #b9531c;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #171816;
+    --ink: #e4e2dc;
+    --soft: #adaaa2;
+    --faint: #85837c;
+    --rule: #33352f;
+    --green: #7cc29b;
+    --orange: #ec9a62;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page { max-width: 780px; margin: 0 auto; padding: 48px 24px 64px; }
+
+a { color: var(--green); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; text-decoration-color: color-mix(in srgb, var(--green) 40%, transparent); }
+a:hover { color: var(--orange); text-decoration-color: currentColor; }
+
+/* top */
+header { display: flex; gap: 28px; align-items: flex-start; margin-bottom: 8px; }
+header img { width: 130px; height: 133px; object-fit: cover; border-radius: 4px; flex: none; margin-left: auto; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; font-weight: 600; }
+.sub { margin: 0 0 10px; color: var(--soft); }
+.contact-line { margin: 0; font-size: 16px; }
+.contact-line span { color: var(--faint); margin: 0 4px; }
+
+nav { margin: 28px 0 8px; padding: 10px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); font-size: 16px; }
+nav a { color: var(--ink); text-decoration: none; margin-right: 18px; white-space: nowrap; }
+nav a:hover { color: var(--orange); }
+
+h2 { font-size: 24px; font-weight: 600; color: var(--orange); margin: 44px 0 12px; }
+h3 { font-size: 18px; font-weight: 600; margin: 24px 0 8px; }
+p { margin: 0 0 14px; }
+
+ul, ol { padding-left: 22px; margin: 0 0 14px; }
+li { margin-bottom: 6px; }
+
+.small { font-size: 15.5px; color: var(--soft); }
+
+/* publications */
+ol.pubs li { margin-bottom: 12px; padding-left: 4px; }
+.pubs .ti { font-weight: 600; }
+.pubs .au { color: var(--soft); }
+.pubs .ln { font-size: 15.5px; white-space: nowrap; }
+
+/* dated lists: talks, meetings */
+table { border-collapse: collapse; width: 100%; font-size: 16.5px; margin: 0 0 14px; }
+td { padding: 6px 14px 6px 0; vertical-align: top; border-bottom: 1px solid var(--rule); }
+tr:last-child td { border-bottom: 0; }
+td.d { white-space: nowrap; color: var(--faint); width: 92px; }
+td.n { text-align: right; white-space: nowrap; }
+th { text-align: left; font-weight: 600; padding: 6px 14px 6px 0; border-bottom: 1px solid var(--ink); }
+.ev { color: var(--soft); }
+
+footer { margin-top: 56px; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 15px; color: var(--faint); }
+
+@media (max-width: 600px) {
+  body { font-size: 17px; }
+  .page { padding: 28px 16px 48px; }
+  header { flex-direction: column-reverse; gap: 16px; }
+  header img { width: 110px; height: 113px; margin-left: 0; }
+  h1 { font-size: 28px; }
+  nav a { display: inline-block; margin: 2px 14px 2px 0; }
+  td.d { width: 76px; }
+}
+
+/* ---------- night-sky header ---------- */
+
+.sky {
+  position: relative;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 70% 0%, #1d2a3d 0%, #0c121c 55%, #070a10 100%);
+  color: #e8e6df;
+}
+#sky { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.sky-inner { position: relative; padding-bottom: 22px; }
+.sky .sub { color: #b9b7ae; }
+.sky a { color: #9fd8b5; text-decoration-color: rgba(159,216,181,.45); }
+.sky a:hover { color: #f2a36b; }
+.sky .contact-line span { color: #6f7680; }
+.sky header img { box-shadow: 0 0 0 1px rgba(255,255,255,.15); }
+
+.skyinfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin: 26px 0 0;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 12.5px;
+  color: #8a909a;
+  letter-spacing: .02em;
+}
+.skyinfo b { color: #f2a36b; font-weight: 500; }
+
+/* sticky section menu */
+nav { position: sticky; top: 0; z-index: 5; background: var(--bg); margin-top: 0; }
+
+/* small four-point star before section titles */
+h2::before { content: "\2726"; font-size: .6em; vertical-align: .25em; margin-right: 10px; color: var(--green); display: inline-block; animation: twinkle 4s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.8); } }
+
+/* fade sections in as they scroll into view (class added by sky.js) */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: none; }
+
+/* publications: a thin orange tick on hover */
+ol.pubs li { border-left: 2px solid transparent; transition: border-color .2s; margin-left: -12px; padding-left: 14px; }
+ol.pubs li:hover { border-left-color: var(--orange); }
+ol.pubs { padding-left: 34px; }
+
+@media (prefers-reduced-motion: reduce) {
+  h2::before { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+.sky + .page { padding-top: 0; }
+.sky + .page nav { border-top: 0; }
+
+/* room for the observatory at the bottom of the sky on phones */
+@media (max-width: 600px) { .sky-inner { padding-bottom: 64px; } }
+
+/* reading-progress light curve fixed to the bottom of the window */
+.lcbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  height: 46px;
+  z-index: 6;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-top: 1px solid var(--rule);
+  pointer-events: none;
+}
+.lcbar canvas { display: block; }
+body { padding-bottom: 46px; }
